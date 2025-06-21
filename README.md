@@ -1,53 +1,71 @@
----
-title: AI Book Recommender
-emoji: 📚
-colorFrom: indigo
-colorTo: purple
-sdk: gradio
-sdk_version: 4.18.0
-app_file: app.py
-pinned: false
----
+# 📚 AI Book Recommender + 🎵 Song Match
 
-# AI Book Recommender 📚✨
+Discover the perfect book for your *mood* or *vibe*, and get Spotify song recommendations that match your emotional tone or query — powered by AI, NLP, and smart vector search.
 
-Discover the perfect book for your mood using smart emotion detection and personalized recommendations powered by AI and NLP.
-git 
-# 📚 AI Book Recommender
-
-An intelligent book recommendation app built with Gradio, sentence transformers, and a vector database — just describe what you want or how you feel, and get personalized book suggestions instantly.
+---------------------------------------------------------
 
 ## 🔍 Features
 
-- Emotion and category-based book filtering
-- Visual cards with thumbnails and author details
-- Fast, semantic search using embeddings
-- Gradio-powered interactive UI
+- 📖 **Semantic Book Search** — just describe what you're looking for
+- 🎭 **Emotion + Genre Filtering** — Joy, Sadness, Trust, Fear, etc.
+- 📚 **Personalized Book Cards** — with title, authors, cover, and summary
+- 🎵 **Matching Spotify Songs** — mood-aligned songs with direct links
+- 🧠 **Smart Recommendations** — powered by sentence transformers + ChromaDB
+- ⚡ Fast & interactive **Gradio UI**
+
+---------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
-- Python
-- Gradio
-- Sentence Transformers
-- Langchain + ChromaDB
-- Pandas
-- Numpy
-- HuggingFace Embeddings
+- **Python**
+- **Gradio** (UI)
+- **Sentence Transformers** (Embeddings)
+- **LangChain + ChromaDB** (Vector search)
+- **Spotipy + Spotify API** (Song recommendations)
+- **Pandas**, **NumPy**, **HuggingFace Embeddings**
+
+---------------------------------------------------------
 
 ## 💡 How to Use
 
-1. Describe what you're looking for (e.g., *"a fast-paced thriller with twists"*)
-2. Optionally filter by genre or emotion
-3. Get personalized book recommendations with summaries and covers!
+1. Describe a book you want — e.g.,  
+   *"a hopeful story of second chances in a small town"*
+2. Optionally filter by genre (e.g., Romance) or emotion (e.g., Trust)
+3. Get a list of **smartly matched books**
+4. Scroll below to explore **Spotify songs** that match your vibe — no explicit artist mention needed!
 
+---------------------------------------------------------
 
-🎯 Check out the live deployment: [Book Recommender](https://Anjali3Mittal-book-recommendations.hf.space)
+## 🎯 Try it Live
 
+> [Book + Song Recommender App on Hugging Face](https://huggingface.co/spaces/Anjali3Mittal/book_recommendations)
+
+---------------------------------------------------------
 
 ## 📁 Dataset
 
-Custom dataset of thousands of books with categories and emotion-tagged descriptions.
+- Curated set of thousands of books with:
+  - Cleaned metadata (title, authors, category, description)
+  - Mapped genre categories
+  - Emotion-tagged descriptions using a sentiment model
 
----
+---------------------------------------------------------
+
+## 🚀 Example Prompts
+
+- `"something poetic and sad about grief"`
+- `"books about fierce women and political intrigue"`
+- `"feel-good college romance like a soft k-drama"`
+- `"dark academia with gothic setting and a twist"`
+- `"inspiring story of redemption and forgiveness"`
+
+Each of these prompts will give:
+- 📘 books that match your theme
+- 🎶 songs that feel like the *soundtrack* to your mood
+
+---------------------------------------------------------
+
+Feel free to ⭐️ the repo if you like it or fork it for your own project!
+------------------
 
 Made with ❤️ by [Anjali Mittal](https://github.com/Anjali-Mittal)
